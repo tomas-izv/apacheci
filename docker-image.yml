@@ -28,3 +28,4 @@ jobs:
   tags: |
   ${{ secrets.DOCKERHUB_USERNAME }}/docker-github-actions:latest
   ${{ secrets.DOCKERHUB_USERNAME }}/docker-github-actions:${{ github.sha }}
+
